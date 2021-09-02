@@ -1,0 +1,103 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+//@import './example';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #212121;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+}
+
+form {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+input {
+  border-radius: 10px;
+  border-color: rgb(190, 218, 32);
+}
+
+.search-form {
+  margin: 2% auto;
+  max-width: 10%;
+}
+
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+  padding: 0;
+  justify-content: center;
+}
+
+.gallery li {
+  max-width: 25%;
+  min-width: 25%;
+  justify-content: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 90%;
+}
+
+.stats-item {
+  font-size: 10px;
+}
+
+i .material-items {
+  height: 25px;
+  width: 25px;
+}
+
+.search {
+  margin-left: 10px;
+  background-color: rgb(190, 218, 32);
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: rgb(190, 218, 32);
+}
+
+.load-more_hide {
+  display: none;
+}
+
+.load-more_visible {
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  border-color: rgb(190, 218, 32);
+  background-color: rgb(190, 218, 32);
+  width: 150px;
+  height: 30px;
+  margin-bottom: 30px;
+}
